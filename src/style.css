@@ -1,0 +1,62 @@
+h1{
+  text-align:center
+}
+
+button{
+  color:white;
+  border: none;
+  background-color: green;
+  padding: 8px 16px ;
+  width: 79%;
+  font-size: 18px;
+
+}
+#completed{
+  color:white;
+  border: none;
+  background-color: green;
+  padding: 8px 16px;
+  font-size: 18px;
+}
+input{
+font-size:20px;
+align-content: center;
+padding:4px 8px;
+width: 70%;
+flex-grow:1;
+margin: 10px;
+}
+
+.todo{
+  width:500px;
+  margin: 60px auto;
+}
+
+#todo{
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+#del{
+  background-color:red
+}
+#complete{
+  background-color:blue
+}
+.list-style{
+  display: flex;
+  flex-direction: column;
+}
+.button-style{
+  display:flex;
+  justify-content:space-between;
+  margin:5px;
+}
+.todo-style{
+font-size:24px;
+display:flex;
+align-items:center;
+width:auto;
+flex-grow:1;
+
+}
