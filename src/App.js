@@ -54,10 +54,10 @@ const App = () => {
         <div class="list-style" key={data.id}>
           <div class="button-style">
             <div class="todo-style">
-              <div>                
-              {data.taskName}</div>
-              <div> {data.dueDate}</div>               
-              <div>{data.description}</div>              
+                             
+             {data.taskName}
+             {data.dueDate}               
+             {data.description}             
              
             </div>
             <button id="del" onClick={() => onDelete(data.id)}>
